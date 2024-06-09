@@ -1,10 +1,11 @@
-//LGRM60 - Estrutura de alunos
+//LGRM61 - Estrutura de alunos
 //Luana Gabrielle Rodrigues Macedo - 16/05/2024
 /*Solicitar os seguintes dados de um aluno:
-	nome, sexo, idade e media final
+	nome, telefone e idade
 
 	Criar uma estrutura contendo esses tipos
-	Criar uma função que recebe e apresenta esses 4 dados
+ 	A estrutura comporta 4 pessoas
+	Criar uma função que apresente os dados das 4 pessoas
 	Reciclar o programa saindo quando for digitado apenas Enter
 */
 
@@ -14,11 +15,10 @@ void fGrupo(struct stamigo am[4]);
 void fclear();
 
 struct stamigo {
-		char nome[40];
-		char telefone[12];
-		int idade;
-	};
-
+	char nome[40];
+	char telefone[12];
+	int idade;
+};
 int main(){
 	
 	
@@ -32,15 +32,14 @@ struct stamigo amigos[4];
 		scanf("%d", &amigos[i].idade);
 		
 		fclear();
-	}
+}
 	
-	fGrupo(amigos);
+fGrupo(amigos);
+return 0;
 	
-
-	return 0;	
 } 
+
 void fGrupo(stamigo amigos[4]){
-	
 	system("cls");
 	printf("\nGrupo dos 4 amigos\n");
 	printf("---------------------------------------------\n");
