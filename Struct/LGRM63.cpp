@@ -1,10 +1,10 @@
-//LGRM63 - Estrutura de alunos
+//LGRM63 - Estrutura dentro de estrutura
 //Luana Gabrielle Rodrigues Macedo - 16/05/2024
 /*Solicitar os seguintes dados de um aluno:
-	nome, sexo, idade e media final
+	nome, sexo, idade endereço e media final
 
 	Criar uma estrutura contendo esses tipos
-	Criar uma função que recebe e apresenta esses 4 dados
+	Criar uma função que recebe os dados de n alunos e apresenta os apresenta
 	Reciclar o programa saindo quando for digitado apenas Enter
 */
 
