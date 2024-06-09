@@ -1,10 +1,11 @@
-//LGRM60 - Estrutura de alunos
+//LGRM62 - Estrutura de pessoas
 //Luana Gabrielle Rodrigues Macedo - 16/05/2024
-/*Solicitar os seguintes dados de um aluno:
-	nome, sexo, idade e media final
+/*Solicitar os seguintes dados de um pessoa:
+	nome, telefone e idade
 
 	Criar uma estrutura contendo esses tipos
-	Criar uma função que recebe e apresenta esses 4 dados
+ 	O programa pode receber esses dados de até 50 pessoas
+  	Apresentar os 3 dados de todas as pessoas 
 	Reciclar o programa saindo quando for digitado apenas Enter
 */
 
